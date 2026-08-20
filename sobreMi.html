@@ -1,0 +1,85 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre mi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+    <div id="page-transition" class="page-transition active"></div>
+    <noscript><style>#page-transition{display:none!important;}</style></noscript>
+    <div id="app">
+        <div class="main-div">
+            <div class="row gap-3 justify-content-center">
+                <div class="col-md-6">
+                    <div class="card1">                          
+                        <h5 class="descripQuiensoyst" data-i18n="descripQuiensoyst">Desarrollador enfocado en construir sistemas limpios, resolver problemas y convertir datos en decisiones.</h5>
+                        <div class="row cardwho gap-3">
+                            <div class="col-md-5">
+                                <div class="card3">
+                                    <p class="coloryear">1.5+</p>                                
+                                    <p class="pdetalle" data-i18n="añosprog">Años programando</p>
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="card4">
+                                    <p class="coloryear">5+</p>                                
+                                    <p class="pdetalle" data-i18n="projecCompl">Proyectos completados</p>
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="card5">
+                                    <p class="coloryear">5</p>                                
+                                    <p class="pdetalle" data-i18n="lenguajesCard">Lenguajes usados</p>
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="card6">
+                                    <p class="coloryear">5</p>                                
+                                    <p class="pdetalle" data-i18n="certificacionesCard">Certificaciones</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="card7">
+                        <div class="nomapellido text-center">
+                            <p class="who" data-i18n="quiensoyst">Sobre mí</p>
+                        </div>  
+                        <p class="p" data-i18n="descrip1">Soy un desarrollador web junior con un enfoque orientado al backend y experiencia en ASP.NET Core, PHP/Laravel, SQL y redes informáticas. Disfruto creando sistemas organizados, resolviendo problemas y comprendiendo el funcionamiento interno detrás del código.</p>
+                        <p class="p" data-i18n="descrip2">También me interesan la ciencia de datos, la visualización de datos y los mercados financieros. Como trader e inversor en acciones y criptomonedas, he reforzado mi interés por los datos, el análisis, los patrones y la toma de decisiones.</p>
+                        <p class="p" data-i18n="descrip3">Disfruto combinando el desarrollo de software, las redes, los datos y las finanzas en mis proyectos personales, mientras continúo mejorando mis habilidades y creciendo como desarrollador.</p>
+                    </div>
+                </div>
+            </div>      
+        </div>
+
+        <div class="navbar1">
+            <button type="button" class="btn btn-color" data-i18n="inicio" onclick="navegarA('index')">Inicio</button>
+            <button type="button" class="btn btn-color" data-i18n="sobre" onclick="navegarA('sobreMi')">Sobre mi</button>
+            <button type="button" class="btn btn-color" data-i18n="habilidades" onclick="navegarA('habilidades')">Habilidades</button>
+            <button type="button" class="btn btn-color" data-i18n="proyectos" onclick="navegarA('proyectos')">Proyectos</button>
+            <button type="button" class="btn btn-color" data-i18n="certificaciones" onclick="navegarA('certificaciones')">Certificaciones</button>
+            <button type="button" class="btn btn-color" data-i18n="contacto" onclick="navegarA('contacto')">Contacto</button>
+        </div>
+
+        <div class="language-buttons">
+            <button type="button" class="btn" onclick="setLanguage('es')">Español</button>
+            <button type="button" class="btn" onclick="setLanguage('en')">English</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="js/icons.js"></script>
+    <script src="js/funcTrad.js"></script>
+    <script src="js/traducciones.js"></script>
+    <script src="js/fade.js"></script>
+    <script src="js/navegar.js"></script>
+</body>
+</html>
